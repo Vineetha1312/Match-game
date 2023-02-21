@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.score-card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 600px;
+}
+.text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.score-text {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.playagain-btn {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  height: 36px;
+  width: 138px;
+  border: none;
+  border-radius: 10px;
+  background-color: #cf60c8;
+}
+.cup {
+  height: 200px;
+  width: 200px;
+}
+.list-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  height: 100vh;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.image {
+  height: 300px;
+  width: 500px;
+  margin-top: 20px;
+}
+.tab-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
